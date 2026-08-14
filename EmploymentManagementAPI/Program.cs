@@ -40,7 +40,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
     {
-        policy.WithOrigins("http://localhost:5173")
+        policy.WithOrigins("https://employmentmanagementweb-fegjcfb2bzg6dyeq.centralindia-01.azurewebsites.net/")
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials();
